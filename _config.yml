@@ -1,1 +1,8 @@
 title: Minwoo Kim
+url: "https://miinukim.github.io"
+baseurl: ""
+
+remote_theme: alshedivat/al-folio
+
+plugins:
+  - jekyll-remote-theme

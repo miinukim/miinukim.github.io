@@ -1,3 +1,7 @@
-# Hello
+---
+layout: about
+title: about
+permalink: /
+---
 
-This is my site.
+Hello, this is my academic homepage.
