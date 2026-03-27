@@ -3,6 +3,7 @@ layout: page
 title: projects
 nav: true
 nav_order: 5
+permalink: /projects/
 ---
 
 ## Research Projects

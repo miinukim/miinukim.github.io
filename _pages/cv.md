@@ -3,6 +3,7 @@ layout: page
 title: cv
 nav: true
 nav_order: 6
+permalink: /cv/
 ---
 
 This page mirrors the current contents of my CV. A PDF version is available here: [Download CV](/assets/pdf/cv_mkim.pdf).

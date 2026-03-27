@@ -3,6 +3,7 @@ layout: page
 title: publications
 nav: true
 nav_order: 2
+permalink: /publications/
 ---
 
 ## Preprints

@@ -3,6 +3,7 @@ layout: page
 title: software
 nav: true
 nav_order: 3
+permalink: /software/
 ---
 
 ## Research Software
