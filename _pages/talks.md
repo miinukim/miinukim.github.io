@@ -1,8 +1,7 @@
 ---
 layout: page
 title: talks
-nav: true
-nav_order: 4
+nav: false
 permalink: /talks/
 ---
 

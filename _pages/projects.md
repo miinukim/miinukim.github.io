@@ -1,8 +1,7 @@
 ---
 layout: page
 title: projects
-nav: true
-nav_order: 5
+nav: false
 permalink: /projects/
 ---
 
