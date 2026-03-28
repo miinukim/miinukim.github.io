@@ -14,9 +14,11 @@ social: true
 
 I am **Minwoo (James) Kim**, an M.S. student in **Computer Science & Engineering at Seoul National University**, where I am a member of the **Quantum Information and Quantum Computing Lab** advised by **Prof. Taehyun Kim**. My work focuses on **quantum machine learning**, **quantum information science**, and **quantum computer architecture**, with recent projects spanning hybrid quantum-classical algorithms, quantum reservoir computing, and trapped-ion system software.
 
-I previously received my **B.S. in Physics** from Seoul National University, where I wrote my graduation paper on the practical limitations of a **Variational Quantum-Neural Hybrid Eigensolver**.
+I previously received my **B.S. in Physics** from **Seoul National University**, where I wrote my graduation paper on the practical limitations of a Variational Quantum-Neural Hybrid Eigensolver.
 
-PDF CV: [Download CV](/assets/pdf/cv_mkim.pdf)
+<p>
+  <a href="/assets/pdf/cv_mkim.pdf" download><strong>Download CV (PDF)</strong></a>
+</p>
 
 ## Contact
 
@@ -43,8 +45,8 @@ Advisor: **Prof. Taehyun Kim**
 
 ## Publications
 
-1. **M. Kim, K. K. Park, K. Lee, J. Bang, and T. Kim.** *A rigorous hybridization of variational quantum eigensolver and classical neural network.* arXiv:2602.17295, 2026.
-2. **K. K. Park, K. Choi, M. Kim, G. Song, and T. Kim.** *Quantum Linear Multistep Method for Using a Quantum Oracle with Differential Equations.* arXiv:2501.03781, 2025.
+1. **M. Kim**, K. K. Park, K. Lee, J. Bang, and T. Kim. *A rigorous hybridization of variational quantum eigensolver and classical neural network.* arXiv:2602.17295, 2026.
+2. K. K. Park, K. Choi, **M. Kim**, G. Song, and T. Kim. *Quantum Linear Multistep Method for Using a Quantum Oracle with Differential Equations.* arXiv:2501.03781, 2025.
 
 ## Presentations
 

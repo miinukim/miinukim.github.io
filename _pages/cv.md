@@ -33,8 +33,8 @@ Advisor: **Prof. Taehyun Kim**
 
 ## Publications
 
-1. **M. Kim, K. K. Park, K. Lee, J. Bang, and T. Kim.** *A rigorous hybridization of variational quantum eigensolver and classical neural network.* arXiv:2602.17295, 2026.
-2. **K. K. Park, K. Choi, M. Kim, G. Song, and T. Kim.** *Quantum Linear Multistep Method for Using a Quantum Oracle with Differential Equations.* arXiv:2501.03781, 2025.
+1. **M. Kim**, K. K. Park, K. Lee, J. Bang, and T. Kim. *A rigorous hybridization of variational quantum eigensolver and classical neural network.* arXiv:2602.17295, 2026.
+2. K. K. Park, K. Choi, **M. Kim**, G. Song, and T. Kim. *Quantum Linear Multistep Method for Using a Quantum Oracle with Differential Equations.* arXiv:2501.03781, 2025.
 
 ## Presentations & Talks
 
