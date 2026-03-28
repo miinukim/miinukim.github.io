@@ -3,7 +3,7 @@ description: Personal website of Minwoo (James) Kim, M.S. student in Computer Sc
 url: "https://miinukim.github.io"
 baseurl: ""
 lang: en
-icon: "⚛️"
+icon: favicon.svg
 navbar_fixed: true
 footer_fixed: true
 enable_darkmode: false
