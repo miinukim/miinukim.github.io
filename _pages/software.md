@@ -15,23 +15,22 @@ permalink: /software/
 - Focused on hybrid variational quantum eigensolver workflows.
 - Repository: [github.com/miinukim/vqnhelib](https://github.com/miinukim/vqnhelib)
 
-### NISQRCLib
+### PyQRes
 
 **2026-Present**
 
-- Generalized Qiskit-based implementation of the NISQ reservoir computing algorithm proposed in *Nature Communications* **15**, 7491 (2024).
-- Built as reusable research software for quantum reservoir computing studies.
-- Repository: [github.com/miinukim/nisqrclib](https://github.com/miinukim/nisqrclib)
+- Simulation tools for quantum reservoir models and expressivity diagnostics.
+- Built to study measurement- and readout-limited expressivity in quantum reservoir computing.
+- Repository: [github.com/miinukim/pyqres](https://github.com/miinukim/pyqres)
 
-### BLACKHOLE & PyQCSNU
+### PyQCSNU
 
-**2025**
+**2025-Present**
 
-- Software framework for high-level control of trapped-ion quantum computers.
-- Includes scheduling, hardware control, and experimental data acquisition components.
-- Public client repository: [github.com/snu-quiqcl/pyqcsnu](https://github.com/snu-quiqcl/pyqcsnu)
+- Qiskit-compatible Python client for submitting quantum circuits to laboratory hardware and retrieving experimental results.
+- Supports a modular execution architecture with compilation, scheduling, hardware dispatch, and result processing.
+- Repository: [github.com/snu-quiqcl/pyqcsnu](https://github.com/snu-quiqcl/pyqcsnu)
 
 ## Ongoing System Work
 
-- End-to-end trapped-ion experiment software for remote entanglement and surface-trap ion systems.
-- Qiskit-compatible interfaces for laboratory use and future system software deployment.
+- Contributions to trapped-ion experimental-control software used in the QuIQCL laboratory.

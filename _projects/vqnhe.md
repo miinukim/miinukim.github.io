@@ -3,7 +3,7 @@ title: VQNHELib
 description: Qiskit and PyTorch implementation of hybrid quantum-classical eigensolver post-processing
 ---
 
-**VQNHELib** is a software implementation of the diagonal non-unitary post-processing approach introduced in my work on rigorous hybridization of variational quantum eigensolvers and classical neural networks.
+**VQNHELib** is software for numerical experiments on diagonal neural post-processing for variational quantum eigensolvers. It supports work on expressivity, stability, finite-shot limitations, and unitary variants for shot-based estimation.
 
 ## Scope
 
