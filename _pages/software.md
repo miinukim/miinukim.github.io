@@ -9,7 +9,7 @@ permalink: /software/
 
 ### VQNHELib
 
-**2024-Present**
+**2024-2026**
 
 - Qiskit and PyTorch implementation of diagonal non-unitary post-processing algorithms introduced in arXiv:2602.17295.
 - Focused on hybrid variational quantum eigensolver workflows.

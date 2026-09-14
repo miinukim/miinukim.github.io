@@ -12,12 +12,12 @@ profile:
 social: true
 ---
 
-I am **Minwoo (James) Kim**, an M.S. student in **Computer Science & Engineering at Seoul National University**, where I am a member of the **Quantum Information and Quantum Computing Lab** advised by **Prof. Taehyun Kim**. My research spans **quantum information theory**, **quantum machine learning**, the **expressivity of quantum algorithms**, **quantum reservoir computing**, and **quantum computer architecture**.
+I am **Minwoo James Kim**, an M.S. student in **Computer Science & Engineering at Seoul National University**, where I am a member of the **Quantum Information and Quantum Computing Lab** advised by **Prof. Taehyun Kim**. My research spans **quantum machine learning**, **quantum information theory**, the **expressivity of quantum algorithms**, **quantum reservoir computing**, and **quantum computer architecture**.
 
 I received my **B.S. in Physics** from **Seoul National University** (GPA 3.53/4.00), where my bachelor's thesis examined practical limitations in training a Variational Quantum-Neural Hybrid Eigensolver.
 
 <p>
-  <a href="/assets/pdf/cv_mkim_260828.pdf" download><strong>Download CV (PDF)</strong></a>
+  <a href="/assets/pdf/cv_mjkim_260914.pdf" download><strong>Download CV (PDF)</strong></a>
 </p>
 
 ## Contact
@@ -47,15 +47,16 @@ Advisor: **Prof. Taehyun Kim**
 
 ## Publications
 
-1. **M. Kim**, J. Bang, and T. Kim. *Measurement-Limited Expressivity in Quantum Reservoir Computing.* Manuscript in preparation.
-2. **M. Kim**, K. K. Park, K. Lee, J. Bang, and T. Kim. *A Rigorous Hybridization of Variational Quantum Eigensolver and Classical Neural Network.* arXiv:2602.17295, 2026.
-3. **M. Kim**, K. K. Park, B. Cho, and T. Kim. *Architecture of a Modular Operating System for High-Level Quantum Computation.* Poster, IEEE QCE 2025, Art. no. 11249975.
-4. K. K. Park, **M. Kim**, B. Cho, and T. Kim. *Quantum Circuit Compilation for Small Scale Trapped Ion Quantum Computer.* Poster, IEEE QCE 2025, Art. no. 11250081.
-5. K. K. Park, K. Choi, **M. Kim**, G. Song, and T. Kim. *Quantum Linear Multistep Method for Using a Quantum Oracle with Differential Equations.* arXiv:2501.03781, 2025.
+1. **M. J. Kim**, K. K. Park, K. Lee, J. Bang, and T. Kim. *A Rigorous Hybridization of Variational Quantum Eigensolver with Classical Neural Network.* arXiv:2602.17295, 2026.
+2. **M. J. Kim**, J. Bang, and T. Kim. *Measurement-Limited Expressivity in Quantum Reservoir Computing.* Manuscript in preparation.
+3. **M. J. Kim**, K. K. Park, B. Cho, and T. Kim. *Architecture of a Modular Operating System for High-Level Quantum Computation.* Poster, IEEE QCE 2025, Art. no. 11249975.
+4. K. K. Park, **M. J. Kim**, B. Cho, and T. Kim. *Quantum Circuit Compilation for Small Scale Trapped Ion Quantum Computer.* Poster, IEEE QCE 2025, Art. no. 11250081.
+5. K. K. Park, K. Choi, **M. J. Kim**, G. Song, and T. Kim. *Quantum Linear Multistep Method for Using a Quantum Oracle with Differential Equations.* arXiv:2501.03781, 2025.
 
 ## Presentations
 
 - *A Rigorous Hybridization of Variational Quantum Eigensolver and Classical Neural Network*, poster presentation at **AQIS 2026**.
+- *Quantum Reservoir Computing Using Prethermal Floquet Dynamics*, expected oral presentation at the **KPS 2026 Fall Meeting**.
 - *Architecture of a Modular Operating System for High-level Quantum Computation*, poster presentation at **IEEE Quantum Week 2025**.
 - *Practical limitations on training of Variational Quantum-Neural Hybrid Eigensolver*, oral presentation at **QISK 2025 Annual Meeting**.
 
@@ -63,7 +64,7 @@ Advisor: **Prof. Taehyun Kim**
 
 ### Quantum-Neural Hybrid Variational Algorithms
 
-**2024-Present**
+**2024-2026**
 
 - Developed and analyzed diagonal neural post-processing methods for variational quantum eigensolvers, with attention to expressivity, stability, and finite-shot limitations.
 - Studied non-unitary structural limitations and developed a unitary variant designed for shot-based estimation.
@@ -87,7 +88,7 @@ Advisor: **Prof. Taehyun Kim**
 
 ### Selected Software
 
-- **VQNHELib** (2024-Present): Qiskit/PyTorch implementation of diagonal non-unitary post-processing algorithms introduced in arXiv:2602.17295. Repository: [github.com/miinukim/vqnhelib](https://github.com/miinukim/vqnhelib)
+- **VQNHELib** (2024-2026): Qiskit/PyTorch implementation of diagonal non-unitary post-processing algorithms introduced in arXiv:2602.17295. Repository: [github.com/miinukim/vqnhelib](https://github.com/miinukim/vqnhelib)
 - **PyQRes** (2026-Present): Simulation tools for quantum reservoir models and expressivity diagnostics. Repository: [github.com/miinukim/pyqres](https://github.com/miinukim/pyqres)
 - **PyQCSNU** (2025-Present): Qiskit-compatible client for submitting quantum circuits to trapped-ion laboratory hardware and retrieving experimental results. Repository: [github.com/snu-quiqcl/pyqcsnu](https://github.com/snu-quiqcl/pyqcsnu)
 

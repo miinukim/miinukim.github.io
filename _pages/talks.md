@@ -10,6 +10,9 @@ permalink: /talks/
 - **A Rigorous Hybridization of Variational Quantum Eigensolver and Classical Neural Network**<br>
   Poster presentation, **AQIS 2026**
 
+- **Quantum Reservoir Computing Using Prethermal Floquet Dynamics**<br>
+  Expected oral presentation, **KPS 2026 Fall Meeting**
+
 - **Architecture of a Modular Operating System for High-level Quantum Computation**  
   Poster presentation, **IEEE Quantum Week 2025**
 

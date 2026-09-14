@@ -9,7 +9,7 @@ permalink: /projects/
 
 ### Quantum-Neural Hybrid Variational Algorithms
 
-**2024-Present**
+**2024-2026**
 
 - Developed and analyzed diagonal neural post-processing methods for variational quantum eigensolvers.
 - Studied expressivity, stability, finite-shot limitations, and a unitary variant for shot-based estimation.

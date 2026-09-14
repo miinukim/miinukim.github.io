@@ -1,5 +1,5 @@
-title: Minwoo Kim
-description: Personal website of Minwoo (James) Kim, M.S. student in Computer Science & Engineering at Seoul National University.
+title: Minwoo James Kim
+description: Personal website of Minwoo James Kim, M.S. student in Computer Science & Engineering at Seoul National University.
 url: "https://miinukim.github.io"
 baseurl: ""
 lang: en
@@ -10,7 +10,7 @@ enable_darkmode: false
 enable_navbar_social: true
 
 author:
-  name: Minwoo Kim
+  name: Minwoo James Kim
 
 first_name: Minwoo
 middle_name: James

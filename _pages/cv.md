@@ -5,11 +5,11 @@ nav: false
 permalink: /cv/
 ---
 
-This page mirrors my current CV. [Download the PDF](/assets/pdf/cv_mkim_260828.pdf).
+This page mirrors my current CV. [Download the PDF](/assets/pdf/cv_mjkim_260914.pdf).
 
 ## Contact
 
-- **Minwoo (James) Kim**
+- **Minwoo James Kim**
 - Seoul, Korea
 - (+82) 10-7735-6583
 - [myfirstexp@snu.ac.kr](mailto:myfirstexp@snu.ac.kr)
@@ -18,7 +18,7 @@ This page mirrors my current CV. [Download the PDF](/assets/pdf/cv_mkim_260828.p
 
 ## Research Interests
 
-Quantum information theory; quantum machine learning; expressivity theory of quantum algorithms; quantum reservoir computing; quantum many-body dynamics; and quantum computer architecture.
+Quantum machine learning; quantum information theory; expressivity theory of quantum algorithms; quantum reservoir computing; quantum many-body dynamics; and quantum computer architecture.
 
 ## Education
 
@@ -39,17 +39,17 @@ Quantum Information and Quantum Computing Lab | Advisor: **Prof. Taehyun Kim**
 
 ## Publications, Preprints, and Proceedings
 
-1. **M. Kim**, J. Bang, and T. Kim. *Measurement-Limited Expressivity in Quantum Reservoir Computing.* Manuscript in preparation.
-2. **M. Kim**, K. K. Park, K. Lee, J. Bang, and T. Kim. *A Rigorous Hybridization of Variational Quantum Eigensolver and Classical Neural Network.* arXiv:2602.17295, 2026.
-3. **M. Kim**, K. K. Park, B. Cho, and T. Kim. *Architecture of a Modular Operating System for High-Level Quantum Computation.* Poster, IEEE QCE 2025, Art. no. 11249975.
-4. K. K. Park, **M. Kim**, B. Cho, and T. Kim. *Quantum Circuit Compilation for Small Scale Trapped Ion Quantum Computer.* Poster, IEEE QCE 2025, Art. no. 11250081.
-5. K. K. Park, K. Choi, **M. Kim**, G. Song, and T. Kim. *Quantum Linear Multistep Method for Using a Quantum Oracle with Differential Equations.* arXiv:2501.03781, 2025.
+1. **M. J. Kim**, K. K. Park, K. Lee, J. Bang, and T. Kim. *A Rigorous Hybridization of Variational Quantum Eigensolver with Classical Neural Network.* arXiv:2602.17295, 2026.
+2. **M. J. Kim**, J. Bang, and T. Kim. *Measurement-Limited Expressivity in Quantum Reservoir Computing.* Manuscript in preparation.
+3. **M. J. Kim**, K. K. Park, B. Cho, and T. Kim. *Architecture of a Modular Operating System for High-Level Quantum Computation.* Poster, IEEE QCE 2025, Art. no. 11249975.
+4. K. K. Park, **M. J. Kim**, B. Cho, and T. Kim. *Quantum Circuit Compilation for Small Scale Trapped Ion Quantum Computer.* Poster, IEEE QCE 2025, Art. no. 11250081.
+5. K. K. Park, K. Choi, **M. J. Kim**, G. Song, and T. Kim. *Quantum Linear Multistep Method for Using a Quantum Oracle with Differential Equations.* arXiv:2501.03781, 2025.
 
 ## Selected Research Experience
 
 ### Quantum-Neural Hybrid Variational Algorithms
 
-**2024-Present**
+**2024-2026**
 
 - Developed and analyzed diagonal neural post-processing methods for variational quantum eigensolvers, focusing on expressivity, stability, and finite-shot limitations.
 - Studied structural limitations of non-unitary neural post-processing and developed a unitary variant designed to remain stable under shot-based estimation.
@@ -74,6 +74,7 @@ Quantum Information and Quantum Computing Lab | Advisor: **Prof. Taehyun Kim**
 ## Selected Presentations
 
 - Poster presentation, **AQIS 2026**: *A Rigorous Hybridization of Variational Quantum Eigensolver and Classical Neural Network*.
+- Expected oral presentation, **KPS 2026 Fall Meeting**: *Quantum Reservoir Computing Using Prethermal Floquet Dynamics*.
 - Poster presentation, **IEEE Quantum Week 2025**: *Architecture of a Modular Operating System for High-Level Quantum Computation*.
 - Oral presentation, **QISK 2025 Annual Meeting**: *Practical Limitations on Training of Variational Quantum-Neural Hybrid Eigensolver*.
 
