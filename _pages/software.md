@@ -5,32 +5,24 @@ nav: false
 permalink: /software/
 ---
 
-## Research Software
+## Selected Software
 
-### VQNHELib
+### vqnhelib
 
-**2024-2026**
-
-- Qiskit and PyTorch implementation of diagonal non-unitary post-processing algorithms introduced in arXiv:2602.17295.
-- Focused on hybrid variational quantum eigensolver workflows.
+- Numerical tools for quantum-neural hybrid eigensolvers.
 - Repository: [github.com/miinukim/vqnhelib](https://github.com/miinukim/vqnhelib)
 
-### PyQRes
+### pyqres
 
-**2026-Present**
-
-- Simulation tools for quantum reservoir models and expressivity diagnostics.
-- Built to study measurement- and readout-limited expressivity in quantum reservoir computing.
+- Reservoir simulations and expressivity diagnostics.
 - Repository: [github.com/miinukim/pyqres](https://github.com/miinukim/pyqres)
 
-### PyQCSNU
+### pyqcsnu
 
-**2025-Present**
-
-- Qiskit-compatible Python client for submitting quantum circuits to laboratory hardware and retrieving experimental results.
-- Supports a modular execution architecture with compilation, scheduling, hardware dispatch, and result processing.
+- Qiskit-compatible interface for circuit submission and laboratory results.
 - Repository: [github.com/snu-quiqcl/pyqcsnu](https://github.com/snu-quiqcl/pyqcsnu)
 
-## Ongoing System Work
+### maqpie
 
-- Contributions to trapped-ion experimental-control software used in the QuIQCL laboratory.
+- Graphical user interface for unified control of trapped-ion experiments.
+- Repository: [github.com/snu-quiqcl/maqpie](https://github.com/snu-quiqcl/maqpie)

@@ -5,7 +5,7 @@ nav: false
 permalink: /cv/
 ---
 
-This page mirrors my current CV. [Download the PDF](/assets/pdf/cv_mjkim_260914.pdf).
+This page mirrors my current CV. [Download the PDF](/assets/pdf/cv_mjkim.pdf).
 
 ## Contact
 
@@ -18,71 +18,81 @@ This page mirrors my current CV. [Download the PDF](/assets/pdf/cv_mjkim_260914.
 
 ## Research Interests
 
-Quantum machine learning; quantum information theory; expressivity theory of quantum algorithms; quantum reservoir computing; quantum many-body dynamics; and quantum computer architecture.
+Quantum machine learning; quantum information theory; expressivity theory of quantum algorithms; quantum reservoir computing; quantum dynamics; and quantum computer architecture.
 
 ## Education
 
-### Seoul National University, Department of Computer Science & Engineering
+### Seoul National University, Computer Science & Engineering
 
-**M.S. in Computer Science & Engineering**, 2025-Present  
+**M.S. in Computer Science & Engineering**, 2025-Present (expected February 2027)<br>
 Quantum Information and Quantum Computing Lab | Advisor: **Prof. Taehyun Kim**
 
-- Research focus: quantum information, quantum machine learning, variational quantum algorithms, and quantum computing architectures.
-- Expected completion: February 2027.
+### Seoul National University, Physics & Astronomy
 
-### Seoul National University, Department of Physics & Astronomy
-
-**B.S. in Physics**, 2019-2025
+**B.S. in Physics**, 2019-2025 | GPA: 3.53/4.00
 
 - Bachelor's thesis: *Practical Limitations on Training of Variational Quantum-Neural Hybrid Eigensolver*.
-- GPA: 3.53/4.00.
 
-## Publications, Preprints, and Proceedings
+## Publications and Preprints
 
-1. **M. J. Kim**, K. K. Park, K. Lee, J. Bang, and T. Kim. *A Rigorous Hybridization of Variational Quantum Eigensolver with Classical Neural Network.* arXiv:2602.17295, 2026.
-2. **M. J. Kim**, J. Bang, and T. Kim. *Measurement-Limited Expressivity in Quantum Reservoir Computing.* Manuscript in preparation.
-3. **M. J. Kim**, K. K. Park, B. Cho, and T. Kim. *Architecture of a Modular Operating System for High-Level Quantum Computation.* Poster, IEEE QCE 2025, Art. no. 11249975.
-4. K. K. Park, **M. J. Kim**, B. Cho, and T. Kim. *Quantum Circuit Compilation for Small Scale Trapped Ion Quantum Computer.* Poster, IEEE QCE 2025, Art. no. 11250081.
-5. K. K. Park, K. Choi, **M. J. Kim**, G. Song, and T. Kim. *Quantum Linear Multistep Method for Using a Quantum Oracle with Differential Equations.* arXiv:2501.03781, 2025.
+1. **M. J. Kim**, K. K. Park, K. Lee, J. Bang, and T. Kim. *A Rigorous Hybridization of Variational Quantum Eigensolver with Classical Neural Network.* arXiv:2602.17295 (2026); manuscript under revision at *Quantum Science and Technology*.
+2. K. K. Park, K. Choi, **M. J. Kim**, G. Song, and T. Kim. *Quantum Linear Multistep Method for Using a Quantum Oracle with Differential Equations.* arXiv:2501.03781 (2025).
+3. **M. J. Kim**, J. Bang, and T. Kim. *Power of Quantum Reservoir Computing.* Manuscript in preparation.
+4. **M. J. Kim** and T. Kim. *Prethermal-Floquet Quantum Reservoir Computing with Tunable Memory and Measurement-Efficient Readout.* Manuscript in preparation.
 
-## Selected Research Experience
+## Conference Proceedings
+
+1. **M. J. Kim**, K. K. Park, B. Cho, and T. Kim. *Architecture of a Modular Operating System for High-Level Quantum Computation.* IEEE Quantum Week (QCE) Proceedings, 2025, pp. 430-431. doi:10.1109/QCE65121.2025.10380.
+2. K. K. Park, B. Cho, **M. J. Kim**, and T. Kim. *Quantum Circuit Compilation for Small Scale Trapped Ion Quantum Computer.* IEEE Quantum Week (QCE) Proceedings, 2025, pp. 432-433. doi:10.1109/QCE65121.2025.10381.
+
+## Selected Presentations and Conference Abstracts
+
+- Oral presentation, **Korean Physical Society Fall Meeting 2026**: *Quantum Reservoir Computing Using Prethermal Floquet Dynamics*.
+- Poster presentation, **Korean Physical Society Fall Meeting 2026**: *Floquet-Engineered Persistent Memory and Efficient Readout in Quantum Reservoir Computing*.
+- Poster presentation, **AQIS 2026**: *A Rigorous Hybridization of Variational Quantum Eigensolver and Classical Neural Network*.
+- Oral presentation, **QISK Annual Meeting 2026**: *A Rigorous Hybridization of Variational Quantum Eigensolver and Classical Neural Network*.
+- Poster presentation, **IEEE Quantum Week (QCE) 2025**: *Architecture of a Modular Operating System for High-Level Quantum Computation*.
+- Poster presentation, **IEEE Quantum Week (QCE) 2025**: *Quantum Circuit Compilation for Small Scale Trapped Ion Quantum Computer*.
+- Oral presentation, **QISK Annual Meeting 2025**: *Practical Limitations on Training of Variational Quantum-Neural Hybrid Eigensolver*.
+
+## Selected Software
+
+- **vqnhelib**: Numerical tools for quantum-neural hybrid eigensolvers. [GitHub](https://github.com/miinukim/vqnhelib)
+- **pyqres**: Reservoir simulations and expressivity diagnostics. [GitHub](https://github.com/miinukim/pyqres)
+- **pyqcsnu**: Qiskit-compatible interface for circuit submission and laboratory results. [GitHub](https://github.com/snu-quiqcl/pyqcsnu)
+- **maqpie**: Graphical user interface for unified control of trapped-ion experiments. [GitHub](https://github.com/snu-quiqcl/maqpie)
+
+## Research Experience
+
+### Quantum AI for Automated Driving
+
+**Hyundai Motor Group, 2023-2024**
+
+- Explored quantum-machine-learning approaches to automated driving in a joint research project.
+- Combined quantum edge detection with Faster R-CNN for fast object detection.
 
 ### Quantum-Neural Hybrid Variational Algorithms
 
 **2024-2026**
 
-- Developed and analyzed diagonal neural post-processing methods for variational quantum eigensolvers, focusing on expressivity, stability, and finite-shot limitations.
-- Studied structural limitations of non-unitary neural post-processing and developed a unitary variant designed to remain stable under shot-based estimation.
-- Implemented numerical experiments using Qiskit and PyTorch; software: [VQNHELib](https://github.com/miinukim/vqnhelib).
+- Investigated error-mitigation capabilities of neural post-processing using convolutional neural networks through the IonQ research mentorship program.
+- Identified finite-shot limits of diagonal neural reweighting, developed a unitary phase-based alternative that preserves the variational bound, and tested it on a range of spin models.
 
 ### Quantum Reservoir Computing
 
 **2026-Present**
 
-- Analyzed how fixed measurement and readout constraints limit the accessible latent space of quantum reservoir-computing models.
-- Developed theoretical criteria relating reservoir dynamics, visible operator subspaces, and expressivity.
-- Implemented simulation tools for quantum reservoir models and expressivity diagnostics; software: [PyQRes](https://github.com/miinukim/pyqres).
+- Developed an operator-valued Volterra framework and numerical diagnostics to identify temporal features accessible through measurement.
+- Designed a local, prethermal Floquet reservoir for classical-shadow readout and analyzed the tradeoff between memory persistence and feature visibility.
 
-### Architecture and Software Stack for Trapped-Ion Quantum Computers
+### Software Architecture for Trapped-Ion Quantum Computers
 
-**2025-Present**
+**2025-2026**
 
-- Designed a modular architecture for user-level execution of quantum programs on trapped-ion hardware, including compilation, scheduling, hardware dispatch, and result processing.
-- Developed a Qiskit-compatible Python client for submitting quantum circuits and retrieving experimental results from laboratory hardware; software: [PyQCSNU](https://github.com/snu-quiqcl/pyqcsnu).
-- Contributed to experimental software used in the QuIQCL laboratory for trapped-ion experiment control.
+- Developed software linking circuit submission, compilation, scheduling, hardware dispatch, and result processing for laboratory trapped-ion hardware.
+- Built a Qiskit-compatible client and contributed to experiment-control software used in the QuIQCL laboratory.
 
-## Selected Presentations
-
-- Poster presentation, **AQIS 2026**: *A Rigorous Hybridization of Variational Quantum Eigensolver and Classical Neural Network*.
-- Expected oral presentation, **KPS 2026 Fall Meeting**: *Quantum Reservoir Computing Using Prethermal Floquet Dynamics*.
-- Poster presentation, **IEEE Quantum Week 2025**: *Architecture of a Modular Operating System for High-Level Quantum Computation*.
-- Oral presentation, **QISK 2025 Annual Meeting**: *Practical Limitations on Training of Variational Quantum-Neural Hybrid Eigensolver*.
-
-## Patent
-
-- T. Kim and **M. Kim**. *Methods and Apparatus for Resource-Efficient Calculation of Ground State of Quantum Systems, and Recording Medium Thereof.* Korean Patent Application No. SNU202505234, filed by Seoul National University R&DB Foundation, 2025.
-
-## Awards, Honors, and Scholarships
+## Honors and Awards
 
 - **Presidential Science Scholarship**, Korea Student Aid Foundation, 2019-2024
 - **Qiskit Advocate**, 2025-Present
@@ -90,22 +100,21 @@ Quantum Information and Quantum Computing Lab | Advisor: **Prof. Taehyun Kim**
 - **Quantum Excellence**, Qiskit Global Summer School 2023
 - **Center Director Award**, QHackathon 2023
 
-## Technical Skills
+## Patent Application
 
-- **Programming:** Python, C/C++, Java, OCaml
-- **Quantum software:** Qiskit, PennyLane
-- **Scientific computing:** NumPy, PyTorch, numerical simulation
-- **Systems and tools:** Linux, Git, LaTeX, Conda, Django, FastAPI
-- **Languages:** Korean (native); English (TOEFL iBT 110/120)
+- T. Kim and **M. J. Kim**. *Methods and Apparatus for Resource-Efficient Calculation of Ground State of Quantum Systems, and Recording Medium Thereof.* Application filed by Seoul National University R&DB Foundation, 2025 (SNU202505234).
 
-## Selected Activities
+## Teaching and Leadership
 
 - Teaching Assistant, *Topics in New Computer Technology*, Seoul National University, Fall 2026.
 - Teaching Assistant, *Physics Experiment*, Seoul National University, Spring 2024.
-- Undergraduate mentorship program, Seoul National University, Spring 2024. Mentored junior students on a physics course.
-- Member, Quantum Information Science Club Association, 2023-2026. Participated in seminars and collaborative study sessions on quantum computation.
+- Undergraduate physics mentor, Seoul National University, Spring 2024.
+- President, Seoul National University Piano Club, 2020.
+- Team captain, Seoul National University College of Human Ecology Baseball Team, 2026.
 
-## References
+## Technical Skills
 
-- **Prof. Taehyun Kim**, Seoul National University. [taehyun@snu.ac.kr](mailto:taehyun@snu.ac.kr) - Master's advisor.
-- **Prof. Jeongho Bang**, Yonsei University. [jbang@yonsei.ac.kr](mailto:jbang@yonsei.ac.kr) - Research collaborator.
+- **Programming:** Python, Java, OCaml
+- **Quantum and scientific computing:** Qiskit, PennyLane, PyTorch, NumPy
+- **Systems and tools:** Linux, LaTeX, Django, FastAPI
+- **Languages:** Korean (native); English (fluent; TOEFL iBT 110/120)
