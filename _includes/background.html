@@ -1,0 +1,24 @@
+<section class="content-section" id="education">
+<div class="section-heading"><h2>Education</h2><span>Seoul National University</span></div>
+{% for degree in site.data.cv.education %}
+<article class="education-record"><p class="record-meta">{{ degree.date }}</p><h3>{{ degree.degree }}</h3><p>{{ degree.school }} · GPA {{ degree.gpa }}</p><p class="record-detail">{{ degree.note }}</p><p class="thesis"><span>Thesis</span> <em>{{ degree.thesis }}</em></p></article>
+{% endfor %}
+</section>
+<section class="content-section" id="teaching">
+<div class="section-heading"><h2>Teaching & leadership</h2><span>In the classroom & beyond</span></div>
+{% for role in site.data.cv.activities %}<article class="compact-row"><div><h3>{{ role.title }}</h3><p>{{ role.detail }}</p></div><span>{{ role.date }}</span></article>{% endfor %}
+</section>
+<section class="content-section" id="honors">
+<div class="section-heading"><h2>Honors & awards</h2></div>
+{% for award in site.data.cv.awards %}<article class="compact-row"><div><h3>{{ award.title }}</h3>{% if award.detail != '' %}<p>{{ award.detail }}</p>{% endif %}</div><span>{{ award.date }}</span></article>{% endfor %}
+</section>
+<section class="content-section" id="patent">
+<div class="section-heading"><h2>Patent application</h2><span>2025</span></div>
+<h3>Methods and Apparatus for Resource-Efficient Calculation of Ground State of Quantum Systems, and Recording Medium Thereof</h3>
+<p>T. Kim and <strong>M. J. Kim</strong>.</p><p class="record-detail">Application filed by Seoul National University R&DB Foundation, 2025 (SNU202505234).</p>
+</section>
+<section class="content-section" id="skills">
+<div class="section-heading"><h2>Skills & languages</h2></div>
+<dl class="skills-list"><dt>Programming</dt><dd>Python, Java, OCaml</dd><dt>Quantum & scientific computing</dt><dd>Qiskit, PennyLane, PyTorch, NumPy</dd><dt>Systems & tools</dt><dd>Linux, LaTeX, Django, FastAPI</dd><dt>Languages</dt><dd>Korean (native) · English (fluent; TOEFL iBT 110/120)</dd></dl>
+</section>
+<section class="service-note"><h2>Military service</h2><p>Completed mandatory service in the Republic of Korea Army, with frontline border security duty at a General Outpost (GOP), 2021–2022.</p></section>

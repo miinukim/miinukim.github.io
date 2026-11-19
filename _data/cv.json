@@ -1,0 +1,251 @@
+{
+  "interests": [
+    "Quantum machine learning",
+    "Quantum information theory",
+    "Expressivity of quantum algorithms",
+    "Quantum reservoir computing",
+    "Quantum dynamics",
+    "Quantum computer architecture"
+  ],
+  "publications": [
+    {
+      "title": "A Rigorous Hybridization of Variational Quantum Eigensolver with Classical Neural Network",
+      "authors": "<strong>M. J. Kim</strong>, K. K. Park, K. Lee, J. Bang, and T. Kim.",
+      "year": "2026",
+      "status": "Accepted",
+      "detail": "Accepted to Advanced Quantum Technologies. arXiv:2602.17295.",
+      "url": "https://arxiv.org/abs/2602.17295",
+      "link": "Read preprint"
+    },
+    {
+      "title": "Quantum Linear Multistep Method for Using a Quantum Oracle with Differential Equations",
+      "authors": "K. K. Park, K. Choi, <strong>M. J. Kim</strong>, G. Song, and T. Kim.",
+      "year": "2025",
+      "status": "Preprint",
+      "detail": "arXiv:2501.03781.",
+      "url": "https://arxiv.org/abs/2501.03781",
+      "link": "Read preprint"
+    },
+    {
+      "title": "Power of Quantum Reservoir Computing",
+      "authors": "<strong>M. J. Kim</strong>, J. Bang, and T. Kim.",
+      "status": "In preparation",
+      "detail": "Manuscript in preparation."
+    },
+    {
+      "title": "Prethermal-Floquet Quantum Reservoir Computing with Tunable Memory and Measurement-Efficient Readout",
+      "authors": "<strong>M. J. Kim</strong> and T. Kim.",
+      "status": "In preparation",
+      "detail": "Manuscript in preparation."
+    }
+  ],
+  "proceedings": [
+    {
+      "title": "Architecture of a Modular Operating System for High-Level Quantum Computation",
+      "authors": "<strong>M. Kim</strong>, K. K. Park, B. Cho, and T. Kim.",
+      "year": "2025",
+      "detail": "Keynotes, Workshops, Posters, Panels, and Tutorials Program, Proceedings of the IEEE International Conference on Quantum Computing and Engineering (QCE 2025), vol. 2, pp. 430–431.",
+      "url": "https://doi.org/10.1109/QCE65121.2025.10380",
+      "doi": "10.1109/QCE65121.2025.10380"
+    },
+    {
+      "title": "Quantum Circuit Compilation for Small Scale Trapped Ion Quantum Computer",
+      "authors": "K. K. Park, B. Cho, <strong>M. Kim</strong>, and T. Kim.",
+      "year": "2025",
+      "detail": "Keynotes, Workshops, Posters, Panels, and Tutorials Program, Proceedings of the IEEE International Conference on Quantum Computing and Engineering (QCE 2025), vol. 2, pp. 432–433.",
+      "url": "https://doi.org/10.1109/QCE65121.2025.10381",
+      "doi": "10.1109/QCE65121.2025.10381"
+    }
+  ],
+  "talks": [
+    {
+      "title": "Quantum Reservoir Computing Using Prethermal Floquet Dynamics",
+      "venue": "Korean Physical Society (KPS) Fall Meeting",
+      "year": "2026",
+      "type": "Oral"
+    },
+    {
+      "title": "Floquet-Engineered Persistent Memory and Efficient Readout in Quantum Reservoir Computing",
+      "venue": "KPS Fall Meeting",
+      "year": "2026",
+      "type": "Poster"
+    },
+    {
+      "title": "A Rigorous Hybridization of Variational Quantum Eigensolver and Classical Neural Network",
+      "venue": "Asian Quantum Information Science Conference (AQIS)",
+      "year": "2026",
+      "type": "Poster"
+    },
+    {
+      "title": "A Rigorous Hybridization of Variational Quantum Eigensolver and Classical Neural Network",
+      "venue": "Annual Meeting of the Quantum Information Society of Korea (QISK)",
+      "year": "2026",
+      "type": "Oral"
+    },
+    {
+      "title": "Architecture of a Modular Operating System for High-Level Quantum Computation",
+      "venue": "IEEE Quantum Week (QCE)",
+      "year": "2025",
+      "type": "Poster"
+    },
+    {
+      "title": "Quantum Circuit Compilation for Small Scale Trapped Ion Quantum Computer",
+      "venue": "IEEE QCE",
+      "year": "2025",
+      "type": "Poster"
+    },
+    {
+      "title": "Practical Limitations on Training of Variational Quantum-Neural Hybrid Eigensolver",
+      "venue": "QISK Annual Meeting",
+      "year": "2025",
+      "type": "Oral"
+    }
+  ],
+  "software": [
+    {
+      "name": "VQNHELib",
+      "category": "Hybrid algorithms",
+      "description": "Numerical tools for quantum-neural hybrid eigensolvers.",
+      "repo": "miinukim/vqnhelib"
+    },
+    {
+      "name": "PyQres",
+      "category": "Reservoir computing",
+      "description": "Reservoir simulations and expressivity diagnostics.",
+      "repo": "miinukim/pyqres"
+    },
+    {
+      "name": "PyQCSNU",
+      "category": "Quantum architecture",
+      "description": "A Qiskit-compatible interface for circuit submission and laboratory results.",
+      "repo": "snu-quiqcl/pyqcsnu"
+    },
+    {
+      "name": "QuAIL",
+      "category": "Experiment control",
+      "description": "An experiment-control server and sequence syntax to coordinate an Arty S7 FPGA with laboratory instruments controlled through QCoDeS.",
+      "repo": "miinukim/quail"
+    },
+    {
+      "name": "Maqpie",
+      "category": "Laboratory interface",
+      "description": "A graphical user interface for unified control of trapped-ion experiments.",
+      "repo": "snu-quiqcl/maqpie"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Quantum reservoir computing",
+      "date": "2026–Present",
+      "context": "Theory & dynamics",
+      "points": [
+        "Developed an operator-valued Volterra framework and numerical diagnostics to identify temporal features accessible through measurement.",
+        "Designed a local, prethermal Floquet reservoir for classical-shadow readout and analyzed the tradeoff between memory persistence and feature visibility."
+      ]
+    },
+    {
+      "title": "Quantum-neural hybrid variational algorithms",
+      "date": "2024–2026",
+      "context": "Hybrid algorithms · IonQ research mentorship",
+      "points": [
+        "Investigated error-mitigation capabilities of neural post-processing using convolutional neural networks through the IonQ research mentorship program.",
+        "Identified finite-shot limits of diagonal neural reweighting, developed a unitary phase-based alternative that preserves the variational bound, and tested it on spin models."
+      ]
+    },
+    {
+      "title": "Software architecture for trapped-ion quantum computers",
+      "date": "2025–2026",
+      "context": "Architecture & laboratory systems",
+      "points": [
+        "Developed software linking circuit submission, compilation, scheduling, hardware dispatch, and result processing for laboratory trapped-ion hardware.",
+        "Built a Qiskit-compatible client and contributed to experiment-control software used in the QuIQCL laboratory."
+      ]
+    },
+    {
+      "title": "Quantum AI for automated driving",
+      "date": "2023–2024",
+      "context": "Joint research with Hyundai Motor Group",
+      "points": [
+        "Explored quantum machine learning approaches to automated driving in a joint research project.",
+        "Combined quantum edge detection with Faster R-CNN for a fast object detection algorithm."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S. in Computer Science and Engineering",
+      "school": "Seoul National University",
+      "date": "2025–Present · Expected February 2027",
+      "gpa": "3.60/4.00",
+      "thesis": "Expressivity and Memory in Quantum Reservoir Computing",
+      "note": "Quantum Information and Quantum Computing Lab · Advisor: Prof. Taehyun Kim"
+    },
+    {
+      "degree": "B.S. in Physics",
+      "school": "Seoul National University",
+      "date": "2019–2025",
+      "gpa": "3.53/4.00",
+      "thesis": "Practical Limitations on Training of Variational Quantum-Neural Hybrid Eigensolver",
+      "note": "Physics and Astronomy"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Presidential Science Scholarship",
+      "detail": "Korea Student Aid Foundation",
+      "date": "2019–2024"
+    },
+    {
+      "title": "Qiskit Advocate",
+      "detail": "",
+      "date": "2025–Present"
+    },
+    {
+      "title": "IBM Quantum Special Award",
+      "detail": "QHackathon",
+      "date": "2024"
+    },
+    {
+      "title": "Quantum Excellence",
+      "detail": "Qiskit Global Summer School",
+      "date": "2023"
+    },
+    {
+      "title": "Center Director Award",
+      "detail": "QHackathon",
+      "date": "2023"
+    }
+  ],
+  "activities": [
+    {
+      "title": "Teaching Assistant",
+      "detail": "Topics in New Computer Technology · Seoul National University",
+      "date": "Fall 2026"
+    },
+    {
+      "title": "Teaching Assistant",
+      "detail": "Physics Experiment · Seoul National University",
+      "date": "Spring 2024"
+    },
+    {
+      "title": "Undergraduate physics mentor",
+      "detail": "Seoul National University",
+      "date": "Spring 2024"
+    },
+    {
+      "title": "Department Representative",
+      "detail": "Department of Physics & Astronomy · Seoul National University",
+      "date": "2024"
+    },
+    {
+      "title": "President",
+      "detail": "Seoul National University Piano Club",
+      "date": "2020"
+    },
+    {
+      "title": "Team captain",
+      "detail": "Seoul National University College of Human Ecology Baseball Team",
+      "date": "2026"
+    }
+  ]
+}

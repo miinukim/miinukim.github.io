@@ -1,0 +1,8 @@
+<div class="software-grid">
+{% for tool in site.data.cv.software %}
+<article class="software-card">
+<p class="eyebrow">{{ tool.category }}</p><h2>{{ tool.name }}</h2><p>{{ tool.description }}</p>
+<a class="repo-link" href="https://github.com/{{ tool.repo }}">{{ tool.repo }}</a>
+</article>
+{% endfor %}
+</div>

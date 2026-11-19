@@ -1,0 +1,11 @@
+<section class="content-section" id="interests">
+<div class="section-heading"><h2>Research interests</h2><span>The questions behind the work</span></div>
+<p class="section-lead">How do dynamics, measurement, and readout shape what a quantum learning system can express and remember?</p>
+<div class="interest-list">{% for interest in site.data.cv.interests %}<span>{{ interest }}</span>{% endfor %}</div>
+</section>
+<section class="content-section" id="experience">
+<div class="section-heading"><h2>Research experience</h2><span>Theory, algorithms & systems</span></div>
+{% for role in site.data.cv.experience %}
+<article class="experience-row"><div class="experience-date">{{ role.date }}</div><div><p class="eyebrow">{{ role.context }}</p><h3>{{ role.title }}</h3><ul>{% for point in role.points %}<li>{{ point }}</li>{% endfor %}</ul></div></article>
+{% endfor %}
+</section>

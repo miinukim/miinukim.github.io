@@ -1,0 +1,9 @@
+<section id="talks" class="content-section">
+<div class="section-heading"><h2>Conference presentations</h2><span>Oral presentations & posters</span></div>
+{% for talk in site.data.cv.talks %}
+<article class="talk-row">
+<div class="talk-date">{{ talk.year }}<span class="badge">{{ talk.type }}</span></div>
+<div><h3>{{ talk.title }}</h3><p>{{ talk.venue }}</p></div>
+</article>
+{% endfor %}
+</section>
