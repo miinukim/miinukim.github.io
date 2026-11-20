@@ -7,7 +7,7 @@ permalink: /
 <section class="hero">
 <div>
 <p class="eyebrow">Quantum information · Learning · Dynamics</p>
-<h1>Minwoo<br>James Kim</h1>
+<h1>Minwoo James Kim</h1>
 <p class="hero-summary">I study the expressivity and memory of quantum learning systems, and build software that connects quantum algorithms to experiments.</p>
 <p class="affiliation">M.S. student in Computer Science and Engineering at <strong>Seoul National University</strong>. Quantum Information and Quantum Computing Lab, advised by Prof. Taehyun Kim.</p>
 <div class="actions"><a class="button" href="{{ '/research/' | relative_url }}">Explore my research</a><a class="button secondary" href="{{ '/assets/pdf/cv_mjkim.pdf' | relative_url }}">Download CV</a></div>
